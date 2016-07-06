@@ -1,0 +1,379 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	width: 1000px;
+	margin: auto;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.hidden {
+	display: none;
+}
+
+body {
+	font-family: Verdana, Helvetica, Sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background: #ffffff;
+    line-height: 1.88889;
+}
+
+
+
+#main-nav {
+	height: 50px;
+}
+
+#header {
+	height: 100px;
+	border-bottom: 1px #9966CC solid;	
+}
+
+#header h1
+{
+    font: italic normal bold 2.5em Monotype Corsiva, georgia, sans-serif;
+		text-align: center;
+		color: #FF0000;
+}
+
+#header h2
+{
+    font: normal 1.5em Monotype Corsiva, georgia, sans-serif;
+		text-align: center;
+		color: Blue;
+}
+
+#sidebar {
+	float: right;
+	width: 180px;
+	line-height: 18px;	
+	border-left: 1px #9966CC solid;	
+}
+
+#sidebar li {
+	list-style: none;
+}
+
+#sidebar  h2
+{
+    font:italic normal 2.1em Monotype Corsiva, georgia, sans-serif;
+		text-align: center;
+		color: #003300;
+}
+
+#content {
+	margin-right: 180px;
+	line-height: 18px;	
+}
+
+#footer {
+	clear: both;
+	height: 66px;
+}
+
+h1,h2 {
+	margin: 0;
+	padding: 0;
+}
+
+ul#menu
+{
+    border-bottom: 1px #9966CC solid;
+    padding: 0 0 2px;
+    /* position: relative; */
+    margin: 0;
+    text-align: left;
+    width:100%; 
+}
+
+ul#menu li
+{
+    display: inline;
+    list-style: none;
+    color: Green;
+}
+
+ul#menu li#greeting
+{
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 2.8em;
+    color: #fff;
+}
+
+ul#menu li a
+{
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 2.8em;
+    background-color: #003300;
+    color: #33CC33;   
+}
+
+ul#menu li a:hover
+{
+    background-color: #fff;
+    text-decoration: none;
+}
+
+ul#menu li a:active
+{
+    background-color: #a6e2a6;
+    text-decoration: none;
+}
+
+ul#menu li.selected a
+{
+    background-color: #fff;
+    color: #000;
+}
+
+table
+{
+    color:#333333;border-collapse:collapse; 
+}
+			   
+
+tr.odd
+{
+   color:#333333;background-color:LightGreen;font-size:large;font-family:Verdana;border:medium solid white;
+}    
+
+tr.even
+{
+   color:#333333;background-color:#FFFFCC;font-size:large;font-family:Verdana;border:medium solid white;
+} 
+
+#paginationDiv
+{
+	font-family: Tahoma, Geneva, sans-serif;
+    font-size: 1.8em;
+	margin-top: 10px;	
+}
+
+#searchBox
+{
+    float:right;
+}
+
+#leftItemTemplate,#rightItemTemplate 
+{
+    padding: 0 0px;
+    margin: 0;
+}
+
+#leftItemTemplate 
+{
+    float: left;
+    padding: 5px;
+    width: 30%;
+}
+
+#rightItemTemplate 
+{
+    float: right;
+    padding: 5px;
+    width: 60%;
+}
+
+#leftItemTemplate h2
+{
+    text-align: left;
+    font: italic normal bold 2.1em "New Century Schoolbook", georgia, sans-serif;
+    color: Red;
+}
+
+#leftItemTemplate h3
+{
+    text-align: left;
+    font: italic normal bold 1.7em  "New Century Schoolbook", georgia, sans-serif;
+    color: Green;    
+}
+
+#rightItemTemplate h3
+{
+    text-align: left;
+    font: italic normal bold 1.7em  "New Century Schoolbook", georgia, sans-serif;
+    color: Green;    
+}
+
+#leftItemTemplate img
+{
+	height: 200px;
+	width: 200px;
+    box-shadow: 10px 10px 10px #111;		
+}
+
+#ratingDiv img
+{
+	height: 20px;
+	width: auto;
+    box-shadow: 0px 0px 0px #111;		
+}
+
+#keywords
+{
+	clear: both;
+    width: 80%;
+	font: normal bold 1.2em Arial, Helvetica, sans-serif;
+}
+
+#keywords li {
+	list-style: none;
+
+}
+
+#module h2
+{
+    text-align: left;
+    font: small bold 1.5em "New Century Schoolbook", georgia, sans-serif;
+    color: Purple;
+}
+
+
+#ratingFormDiv
+{
+	display:none;
+}
+
+#logout
+{
+	clear:both;
+}
+
+.moduleimage img
+{
+	height: 40px;
+	width: 40px;
+    box-shadow: 2px 2px 2px #111;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+div.grid 
+{
+    width:700px;
+    margin: 10px;
+    text-decoration: none;
+    position: relative;
+}
+.grid .module
+{
+    padding: 25px;
+	display: inline-block;
+	position: relative;
+}
+
+.grid .module img
+{
+	height: 100px;
+	width: 100px;
+    box-shadow: 5px 5px 5px #111;	
+}
+
+.grid .module  .moduledetails
+{
+    width: 200px;
+    background-color: #CCCCCC;
+	font-family: Tacoma;
+	font-size: 1.5em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px #111;
+    padding: 10px;
+    visibility: hidden;
+    position: absolute;
+    z-index: 10;
+    top: -50px;
+    left: 100px;
+}
+
+.grid .module .moduledetails .moduletitle
+{
+	color: Purple;
+}
+
+.grid .module .moduledetails .leader
+{
+	color: Green;
+}
+
+.grid .module .image:hover  .moduledetails
+{
+    visibility: visible;
+}
+
+div.list
+{
+    background-color: White;
+    width: 500px;
+}
+
+.list .module
+{
+	height: 60px;
+    padding-left: 5px;
+}
+
+.list .module:nth-of-type(odd) {
+    background: LightGreen;
+}
+
+.list .module a
+{
+	text-decoration: none;	
+}
+
+.list .module img
+{
+	height: 40px;
+	width: 40px;
+    box-shadow: 2px 2px 2px #111;
+}
+
+.list .module .moduledetails
+{
+	visibility: visible;
+	display: inline;
+	margin-left: 25px;
+	font-family: Tacoma;
+	font-size: 1.5em;
+	text-decoration: none;
+	vertical-align: super;
+}
+
+.list .module .moduledetails .moduletitle
+{
+	color: Purple;
+	display: inline-block;
+	width: 50%;
+}
+
+.list .module .moduledetails .leader
+{
+	color: Green;
+	display: inline-block;
+	width: 35%;
+}
+
+#searchBox
+{
+    float:right;
+}
+
+#module h2
+{
+    text-align: left;
+    font: small bold 1.5em "New Century Schoolbook", georgia, sans-serif;
+    color: Purple;
+}
+
+
